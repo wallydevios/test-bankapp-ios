@@ -8,17 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		01632DE828A438A6005EE550 /* BankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632DE728A438A6005EE550 /* BankAppApp.swift */; };
-		01632DEA28A438A6005EE550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632DE928A438A6005EE550 /* ContentView.swift */; };
 		01632DEC28A438A7005EE550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01632DEB28A438A7005EE550 /* Assets.xcassets */; };
 		01632DEF28A438A7005EE550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01632DEE28A438A7005EE550 /* Preview Assets.xcassets */; };
+		01632DF928A43979005EE550 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632DF828A43979005EE550 /* HomeView.swift */; };
+		01632DFB28A43CA4005EE550 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632DFA28A43CA4005EE550 /* BannerView.swift */; };
+		01632DFD28A44681005EE550 /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632DFC28A44681005EE550 /* AddCardView.swift */; };
+		01632DFF28A44702005EE550 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632DFE28A44702005EE550 /* CardModel.swift */; };
+		01632E0128A44759005EE550 /* AcountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0028A44759005EE550 /* AcountModel.swift */; };
+		01632E0528A44B56005EE550 /* BalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0428A44B56005EE550 /* BalanceModel.swift */; };
+		01632E0728A44BCB005EE550 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0628A44BCB005EE550 /* NetworkManager.swift */; };
+		01632E0928A44CD1005EE550 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0828A44CD0005EE550 /* BalanceViewModel.swift */; };
+		01632E0C28A4511E005EE550 /* AcountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0B28A4511E005EE550 /* AcountViewModel.swift */; };
+		01632E0E28A4555E005EE550 /* MovementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0D28A4555E005EE550 /* MovementsModel.swift */; };
+		01632E1028A4568D005EE550 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E0F28A4568C005EE550 /* CardsViewModel.swift */; };
+		01632E1228A45981005EE550 /* CardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E1128A45981005EE550 /* CardRowView.swift */; };
+		01632E1428A45E67005EE550 /* MovementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E1328A45E67005EE550 /* MovementsViewModel.swift */; };
+		01632E1628A46170005EE550 /* MovementRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E1528A46170005EE550 /* MovementRowView.swift */; };
+		01632E1928A4724C005EE550 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01632E1828A4724C005EE550 /* TextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01632DE428A438A6005EE550 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01632DE728A438A6005EE550 /* BankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppApp.swift; sourceTree = "<group>"; };
-		01632DE928A438A6005EE550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01632DEB28A438A7005EE550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01632DEE28A438A7005EE550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01632DF828A43979005EE550 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		01632DFA28A43CA4005EE550 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		01632DFC28A44681005EE550 /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
+		01632DFE28A44702005EE550 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		01632E0028A44759005EE550 /* AcountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountModel.swift; sourceTree = "<group>"; };
+		01632E0428A44B56005EE550 /* BalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceModel.swift; sourceTree = "<group>"; };
+		01632E0628A44BCB005EE550 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		01632E0828A44CD0005EE550 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		01632E0A28A44FB3005EE550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		01632E0B28A4511E005EE550 /* AcountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountViewModel.swift; sourceTree = "<group>"; };
+		01632E0D28A4555E005EE550 /* MovementsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementsModel.swift; sourceTree = "<group>"; };
+		01632E0F28A4568C005EE550 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		01632E1128A45981005EE550 /* CardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRowView.swift; sourceTree = "<group>"; };
+		01632E1328A45E67005EE550 /* MovementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementsViewModel.swift; sourceTree = "<group>"; };
+		01632E1528A46170005EE550 /* MovementRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementRowView.swift; sourceTree = "<group>"; };
+		01632E1828A4724C005EE550 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +80,13 @@
 		01632DE628A438A6005EE550 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				01632E1728A47237005EE550 /* Extensions */,
+				01632E0A28A44FB3005EE550 /* Info.plist */,
+				01632E0628A44BCB005EE550 /* NetworkManager.swift */,
+				01632DF728A43950005EE550 /* ViewModel */,
+				01632DF628A4394D005EE550 /* Model */,
+				01632DF528A43947005EE550 /* View */,
 				01632DE728A438A6005EE550 /* BankAppApp.swift */,
-				01632DE928A438A6005EE550 /* ContentView.swift */,
 				01632DEB28A438A7005EE550 /* Assets.xcassets */,
 				01632DED28A438A7005EE550 /* Preview Content */,
 			);
@@ -65,6 +99,48 @@
 				01632DEE28A438A7005EE550 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01632DF528A43947005EE550 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01632DF828A43979005EE550 /* HomeView.swift */,
+				01632DFA28A43CA4005EE550 /* BannerView.swift */,
+				01632DFC28A44681005EE550 /* AddCardView.swift */,
+				01632E1528A46170005EE550 /* MovementRowView.swift */,
+				01632E1128A45981005EE550 /* CardRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01632DF628A4394D005EE550 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01632DFE28A44702005EE550 /* CardModel.swift */,
+				01632E0028A44759005EE550 /* AcountModel.swift */,
+				01632E0428A44B56005EE550 /* BalanceModel.swift */,
+				01632E0D28A4555E005EE550 /* MovementsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01632DF728A43950005EE550 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01632E0828A44CD0005EE550 /* BalanceViewModel.swift */,
+				01632E0B28A4511E005EE550 /* AcountViewModel.swift */,
+				01632E0F28A4568C005EE550 /* CardsViewModel.swift */,
+				01632E1328A45E67005EE550 /* MovementsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		01632E1728A47237005EE550 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01632E1828A4724C005EE550 /* TextFieldExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01632DEA28A438A6005EE550 /* ContentView.swift in Sources */,
+				01632DF928A43979005EE550 /* HomeView.swift in Sources */,
+				01632E0E28A4555E005EE550 /* MovementsModel.swift in Sources */,
 				01632DE828A438A6005EE550 /* BankAppApp.swift in Sources */,
+				01632E1628A46170005EE550 /* MovementRowView.swift in Sources */,
+				01632DFD28A44681005EE550 /* AddCardView.swift in Sources */,
+				01632E0128A44759005EE550 /* AcountModel.swift in Sources */,
+				01632E0C28A4511E005EE550 /* AcountViewModel.swift in Sources */,
+				01632E1228A45981005EE550 /* CardRowView.swift in Sources */,
+				01632E0728A44BCB005EE550 /* NetworkManager.swift in Sources */,
+				01632E1928A4724C005EE550 /* TextFieldExtension.swift in Sources */,
+				01632E0528A44B56005EE550 /* BalanceModel.swift in Sources */,
+				01632E1428A45E67005EE550 /* MovementsViewModel.swift in Sources */,
+				01632E1028A4568D005EE550 /* CardsViewModel.swift in Sources */,
+				01632DFB28A43CA4005EE550 /* BannerView.swift in Sources */,
+				01632E0928A44CD1005EE550 /* BalanceViewModel.swift in Sources */,
+				01632DFF28A44702005EE550 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +360,7 @@
 				DEVELOPMENT_TEAM = KMD8PAHJZU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +390,7 @@
 				DEVELOPMENT_TEAM = KMD8PAHJZU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
