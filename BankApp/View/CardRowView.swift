@@ -13,7 +13,7 @@ struct CardRowView: View {
     
     var body: some View {
         HStack{
-            if card.estado == "Activa" {
+            if card.estado == "activa" {
                 Image("activeCard")
             } else {
                 Image("inactiveCard")
